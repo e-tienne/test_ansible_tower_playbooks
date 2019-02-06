@@ -5,4 +5,5 @@
       debug:
         msg: "Hello World!"
     - name: set fact for this host
-        custom_fact: thisIsACustomFact
+      set_fact:
+        custom_fact: true
