@@ -7,4 +7,5 @@
     - name: set fact for this host
       set_fact :
         custom_fact: true
+        is_saintpete: true
         cacheable: true
